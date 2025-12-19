@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-img
+      src="./assets/images/logo_ceu.png"
+      style="width: 200px; height: 200px"
+    ></ion-img>
+    <div class="titulo">{{'LOGIN.TITTLE' | translate}}</div>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="form-login">
+    <!-- Login form -->
+    <ion-list>
+      <ion-item>
+        <ion-icon name="mail"></ion-icon>
+        <ion-label class="texto-login">
+          {{'LOGIN.EMAIL_LABEL' | translate}}
+        </ion-label>&nbsp;
+        <ion-input
+          type="email"
+          placeholder="{{'LOGIN.EMAIL_HOLDER' |
+  translate}}"
+        ></ion-input>          
+      </ion-item>
+      <ion-item>
+        <ion-icon name="key-outline"></ion-icon>
+        <ion-label class="texto-login">
+          {{'LOGIN.PWD_LABEL' | translate}}"</ion-label
+        >&nbsp;
+        <ion-input
+          type="password"
+          placeholder="{{'LOGIN.PWD_HOLDER' |
+  translate}}"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-button ion-button>
+          <ion-icon name="log-in"></ion-icon>
+          {{'LOGIN.BOTONENTER' | translate}}
+        </ion-button>
+      </ion-item>
+    </ion-list>
+
+  </div>
+
+</ion-content>

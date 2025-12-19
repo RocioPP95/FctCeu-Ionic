@@ -1,0 +1,11 @@
+{
+    "HOME": "Bienvenido a la página principal",
+    "LOGIN": {
+        "EMAIL_LABEL": "Correo",
+        "EMAIL_HOLDER": "Introduzca su correo electrónico",
+        "PWD_LABEL": "Contraseña",
+        "PWD_HOLDER": "Introduzca su contraseña",
+        "BOTONENTER": "Entrar",
+        "TITTLE":"FCT - CONTROL DE REGISTRO"
+    }
+}

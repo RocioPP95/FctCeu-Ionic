@@ -1,0 +1,11 @@
+{
+    "HOME": "welcome to the home page",
+    "LOGIN": {
+        "EMAIL_LABEL": "Email",
+        "EMAIL_HOLDER": "Enter your email",
+        "PWD_LABEL": "Password",
+        "PWD_HOLDER": "Enter your Password",
+        "BOTONENTER": "Enter",
+        "TITTLE": "FCT - Registry Control"
+    }
+}
